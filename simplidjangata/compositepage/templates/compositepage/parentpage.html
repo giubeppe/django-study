@@ -1,0 +1,11 @@
+<div style="margin: 25px; font-family: geneva">It is {% now "jS F Y H:i" %}</div>
+
+<div>A</div>
+<div>{% include "compositepage/firstson.html" %}</div>
+<div>B</div>
+<div>
+{% if loop < 3  %}
+	{{ loop }}
+{% endif %}
+</div>
+<div>C</div>

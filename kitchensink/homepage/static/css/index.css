@@ -1,0 +1,47 @@
+.bullet {margin:0 10px 0 10px;}
+
+#wrap {margin:0 auto;width:996px;}
+.module {background-color:#fff;margin-left:13px;position:relative;width:970px;}
+.padded {margin-top:20px;padding:20px;width:930px;}
+.cap-top {background-image:url(../img/cap-top.png);height:13px;left:-13px;position:absolute;top:-13px;width:996px;z-index:1;}
+.cap-right {background-image:url(../img/cap-right.png);height:100%;position:absolute;right:-13px;top:0px;width:13px;z-index:1;}
+.cap-bottom {background-image:url(../img/cap-bottom.png);bottom:-13px;height:13px;left:-13px;position:absolute;width:996px;z-index:1;}
+.cap-left {background-image:url(../img/cap-left.png);height:100%;left:-13px;position:absolute;top:0px;width:13px;z-index:1;}
+
+#header {background-image:url(../img/background-header.jpg);height:200px;}
+#logo {left:20px;position:absolute;top:5px;}
+
+#navigation {height:50px;list-style:none;margin:0;padding:0;position:absolute;right:0px;top:0px;}
+#navigation li {border-left:1px dotted #555;float:left;list-style:none;margin:0;padding:0;}
+#navigation li a {display:block;height:50px;width:155px;}
+#navigation li a img {float:left;margin:13px 0 0 40px;}
+#navigation li a span {float:left;margin:18px 0 0 10px;}
+
+#tagline {left:50%;margin-left:-177px;position:absolute;top:70px;}
+#blurb {left:0px;position:absolute;text-align:center;top:104px;width:100%;}
+
+#search {background-color:#fff;border:1px solid #7c38b0;border-radius:5px;bottom:20px;height:35px;left:20px;position:absolute;width:930px;-moz-border-radius:5px;}
+#location-input {border:none;color:#ccc;font-family:Arial, Helvetica, sans-serif;font-size:14px;font-weight:bold;height:33px;left:7px;position:absolute;width:664px;}
+#date-input {border-bottom:none;border-left:1px dotted #555;border-right:none;border-top:none;color:#ccc;font-family:Arial, Helvetica, sans-serif;font-size:14px;font-weight:bold;height:20px;padding-left:10px;position:absolute;right:156px;top:6px;width:82px;}
+#calendar-button {border-left:1px dotted #555;padding-left:10px;position:absolute;right:112px;top:6px;}
+#date {position:absolute;right:-98px;top:28px;z-index:2;}
+#search-button {position:absolute;right:0px;}
+
+#featured {background-color:#fff;height:390px;}
+#container {bottom:0px;height:100%;overflow:hidden;position:absolute;width:100%;}
+#detail {background:url(../img/background-detail.png);bottom:-67px;height:67px;position:absolute;width:100%;}
+#detail div {left:20px;position:absolute;top:20px;width:805px;}
+#detail div h1 {font-size:24px;font-weight:bold;margin-right:20px;}
+
+#how-it-works {margin-top:20px;}
+#info {color:#555;float:left;line-height:18px;width:336px;}
+#steps {float:left;list-style:none;margin-left:40px;padding:0;}
+#steps li {float:left;line-height:18px;list-style:none;margin-left:20px;padding:0;width:150px;}
+.divider {border-left:1px dotted #555;height:150px;width:1px !important;}
+#list-your-venue img {float:left;margin-top:6px;}
+#list-your-venue .button {float:left;margin-top:0px !important;}
+#list-your-venue span {display:block;float:left;margin:11px 20px 0 20px;width:488px;}
+
+#links {color:#8f8f8f;list-style:inside;margin:0;padding:0;}
+#links li {float:left;font-size:10px;margin-right:20px;padding:0;}
+#links a {color:#8f8f8f;font-size:10px;}

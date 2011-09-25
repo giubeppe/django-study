@@ -1,0 +1,5 @@
+{{callback}}({"entry":[
+{% for nameurl in nameurls %}
+	{"name": "{{nameurl.name}}", "url": "{{nameurl.url}}"},
+{% endfor%}	
+]})

@@ -1,0 +1,22 @@
+<html>
+
+<head>
+<style>
+body { font-family: "Lucida Grande"; font-size: 12px }
+table { font-family: "Lucida Grande"; font-size: 12px }
+table td.title { font-weight: bold; }
+table td.name {}
+table td.date { font-style: italic; }
+</style>
+</head>
+
+<body>
+Looking for <span style='font-style: italic'>{{query_string}}</span><br>
+<table>
+{% for entry in found_entries %} 
+	<tr><td class=title>{{entry.name}}</td><td>{{entry.data}}</td><td class=date>{{entry.pub_date}}</td></tr>	
+{% endfor %}
+</table>
+</body>
+
+</html>

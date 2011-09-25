@@ -1,0 +1,7 @@
+body {background:#dedede url(../img/background-body.jpg);color:#333;font-family:Arial, Helvetica, sans-serif;font-size:12px;margin:0;padding:0;}
+img, a {border:none;outline:none;}
+a {color:#555;font-weight:bold;text-decoration:none;}
+h1, h2 {display:inline;margin:0;padding:0;}
+.clear {clear:both;}
+
+

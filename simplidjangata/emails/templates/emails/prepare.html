@@ -1,0 +1,38 @@
+<style>
+
+body { font-family: "Gill Sans"}
+table { font-family: "Gill Sans"}
+ul.errorlist li { list-style-type:none; color: white; background-color: red; }
+</style>
+
+<html>
+
+<body>
+Basic Form Format<br><br>
+
+<form method="POST">
+{% csrf_token %}
+<table>
+{{ form }}
+</table>
+<input type="submit"></form>
+
+<hr/>
+<br>
+Alternative Form is<br><br>
+
+<form method="POST">
+{% csrf_token %}
+<div>recipient 
+{{ form.recipient }} {% if form.recipient.errors %} <span style="color: red">! {% endif %} </span>
+</div>
+<div>subject {{ form.subject }}</div>
+<div>text {{ form.text }}</div>
+<br>
+{{ form.errors }}
+<input type="submit"></form>
+</form>
+
+
+</body>
+</html>

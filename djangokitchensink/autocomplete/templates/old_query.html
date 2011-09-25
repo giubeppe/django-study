@@ -1,0 +1,9 @@
+{ query:'{{query}}', suggestions:[
+{% for nameurl in nameurls %}
+	'{{nameurl.name}}',
+{% endfor %}
+], data:[
+{% for nameurl in nameurls %}
+	'{{nameurl.url}}',
+{% endfor %}
+] }

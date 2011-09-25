@@ -1,0 +1,9 @@
+{% for rec in d.object_list %}
+	<li> {{ rec.data }}
+{% endfor %}
+
+<br><br>
+<a href="?page={{d.previous_page_number}}">prev</a>
+<a href="?page={{d.next_page_number}}">next</a>
+<br>
+<a href="?page={{d.paginator.num_pages}}">last</a>

@@ -1,0 +1,14 @@
+<style>
+div.record { margin: 20px; font-family: Arial; }
+</style>
+
+{% for album in albums %}
+<div class="record">
+<div>Album Info</div>
+<div>Title: <span id="name">{{ album.name }}</span></div>
+<div>Released: <span id="release-date">{{ album.release_date }}</span></div>
+<div>Rating: <span id="num-stars">{{ album.num_stars }}</span></div>
+<div>Artist: <span id="artist">{{ album.artist.first_name }} {{ album.artist.last_name }}</span></div>
+<div>Instrument: <span id="artist">{{ album.artist.instrument}} </span></div>
+</div>
+{% endfor %}
