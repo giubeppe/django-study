@@ -17,5 +17,4 @@ urlpatterns = patterns('',
     url(r'^sankme/', 'thesink.views.helloworld'),
     url(r'^search/', 'thesink.views.search'),
     url(r'^redirect/', 'thesink.views.redirectview'),
-    url(r'^autocomplete/', 'autocomplete.views.index')
 )
