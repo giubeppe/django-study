@@ -5,7 +5,7 @@ from django.shortcuts import render_to_response
 
 from django.db.models import Q
 
-from models import NameUrl
+from djangokitchensink.autocomplete.models import NameUrl
 
 def index(request):
     return render_to_response("example.html")
@@ -33,5 +33,5 @@ def runquery(request):
     
         
 def populate(request):
-    NameUrl.populate()
+    NameUrl().populate()
     return HttpResponse("populated")
