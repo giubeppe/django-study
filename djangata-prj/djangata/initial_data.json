@@ -1,0 +1,7 @@
+[
+{"pk": 1, "model": "thesink.title", "fields": {"pub_date": "2011-09-27", "data": "ciao a tutti", "name": "ciao"}}, 
+{"pk": 2, "model": "thesink.title", "fields": {"pub_date": "2011-09-27", "data": "ciao a casa", "name": "casa"}}, 
+{"pk": 3, "model": "thesink.title", "fields": {"pub_date": "2011-09-27", "data": "casa", "name": "mamma"}},
+{"pk": 4, "model": "thesink.title", "fields": {"pub_date": "2011-09-27", "data": "casa della mamma", "name": "mamma"}},
+{"pk": 4, "model": "thesink.title", "fields": {"pub_date": "2011-09-27", "data": "poppa", "name": "casa della mamma"}}
+]
